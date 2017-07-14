@@ -6,7 +6,8 @@
     "src/shop-detail.html",
     "src/shop-cart.html",
     "src/shop-checkout.html",
-    "src/lazy-resources.html"
+    "src/lazy-resources.html",
+    "src/product.amp.html"
   ],
   "sources": [
     "src/**/*",
@@ -25,12 +26,6 @@
   "builds": [
     {
       "preset": "es5-bundled"
-    },
-    {
-      "preset": "es6-unbundled"
-    },
-    {
-      "preset": "es6-bundled"
     }
   ]
 }
